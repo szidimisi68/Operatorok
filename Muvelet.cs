@@ -8,21 +8,21 @@ namespace ConsoleApp7
 {
     internal class Muvelet
     {
-        double elsoSzam;
+        int elsoSzam;
         string jel;
-        double masodikSzam;
+        int masodikSzam;
 
         public Muvelet(string adatSor)
         {
             string[] felbontottSor = adatSor.Split(" ");
-            this.elsoSzam = double.Parse(felbontottSor[0]);
+            this.elsoSzam = int.Parse(felbontottSor[0]);
             this.jel = felbontottSor[1];
-            this.masodikSzam = double.Parse(felbontottSor[2]);
+            this.masodikSzam = int.Parse(felbontottSor[2]);
         }
 
 
-        public double ElsoSzam { get => elsoSzam; set => elsoSzam = value; }
+        public int ElsoSzam { get => elsoSzam; set => elsoSzam = value; }
         public string Jel { get => jel; set => jel = value; }
-        public double MasodikSzam { get => masodikSzam; set => masodikSzam = value; }
+        public int MasodikSzam { get => masodikSzam; set => masodikSzam = value; }
     }
 }
