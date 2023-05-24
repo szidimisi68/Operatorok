@@ -1,7 +1,7 @@
 ﻿using ConsoleApp7;
 using System;
 
-namespace ConsoleApp7 // Note: actual namespace depends on the project name.
+namespace ConsoleApp7
 {
     class Program
     {
